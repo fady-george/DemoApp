@@ -1,15 +1,15 @@
 {
-  "database": "testingDB",
-  "collection": "users",
-  "roles": [
-    {
-      "name": "writeAndReadAll",
-      "apply_when": {},
-      "insert": true,
-      "delete": true,
-      "read": true,
-      "write": true,
-      "search": true
-   }
-  ]
+    "collection": "users",
+    "database": "testingDB",
+    "roles": [
+        {
+            "name": "writeAndReadAll",
+            "apply_when": {},
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true
+        }
+    ]
 }

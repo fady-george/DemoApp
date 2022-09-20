@@ -1,15 +1,15 @@
 {
-  "title": "uses",
-  "bsonType": "object",
-  "properties": {
-    "_id": {
-      "bsonType": "objectId"
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "booksRead": {
+            "bsonType": "array"
+        },
+        "userName": {
+            "bsonType": "string"
+        }
     },
-    "userName": {
-      "bsonType": "string"
-    },
-    "booksRead": {
-      "bsonType": "array"
-    }
-  }
+    "title": "uses"
 }

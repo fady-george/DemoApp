@@ -1,9 +1,8 @@
 {
-    "collection": "books",
-    "database": "testingDB",
+    "id": "6329c4a8b15a6e3e629c8f46",
     "roles": [
         {
-            "name": "writeAndReadAll",
+            "name": "readAndWriteAll",
             "apply_when": {},
             "read": true,
             "write": true,
