@@ -1,5 +1,3 @@
-const { BSON } = require("realm-web");
-
 exports = async function getBooks(req, _) {
 
 
