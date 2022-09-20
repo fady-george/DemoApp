@@ -1,0 +1,12 @@
+{
+  "title": "books",
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "objectID"
+    },
+    "title": {
+      "bsonType": "string"
+    }
+  }
+}

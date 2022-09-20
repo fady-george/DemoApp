@@ -1,0 +1,15 @@
+{
+  "database": "testingDB",
+  "collection": "users",
+  "roles": [
+    {
+      "name": "writeAndReadAll",
+      "apply_when": true,
+      "insert": true,
+      "delete": true,
+      "read": true,
+      "write": true,
+      "search": true
+   }
+  ]
+}
