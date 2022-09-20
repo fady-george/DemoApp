@@ -3,7 +3,7 @@
   "bsonType": "object",
   "properties": {
     "_id": {
-      "bsonType": "objectID"
+      "bsonType": "objectId"
     },
     "title": {
       "bsonType": "string"
