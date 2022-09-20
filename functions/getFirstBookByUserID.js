@@ -6,7 +6,7 @@ exports = async function getFirstBookByUserID(input) {
   if (input.id) {
     let user = await users.findOne({ _id: new BSON.ObjectId(input.id) });
     let listOFBookIds = Object.values(user.booksRead).map((bookIDAsString) => BSON.ObjectId(bookIDAsString))
-    let firstBookOfUser = await books.find({
+    let firstBookOfUser = await books.findOne({
       _id: listOFBookIds[0]
     })
     return firstBookOfUser;
