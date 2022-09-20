@@ -1,1 +1,7 @@
-[]
+[
+    {
+      "name": "getBooksByUserID",
+      "private": false,
+      "can_evaluate": {}
+    }
+  ]
