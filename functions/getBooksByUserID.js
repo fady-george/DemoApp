@@ -1,4 +1,4 @@
-exports = async function getBooks(req, _) {
+exports = async function getBooksByUserID(req, _) {
   const { query } = req
   const mongoDB = context.services.get("mongodb-atlas");
   const users = mongoDB.db("testingDB").collection("users");
