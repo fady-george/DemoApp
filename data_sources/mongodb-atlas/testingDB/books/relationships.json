@@ -1,1 +1,8 @@
-{}
+{
+    "booksRead": {
+      "ref": "#/relationship/mongodb-atlas/testingDB/books",
+      "source_key": "booksRead",
+      "foreign_key": "_id",
+      "is_list": true
+    },
+  }
