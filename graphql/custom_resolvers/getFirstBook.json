@@ -12,6 +12,6 @@
       }
      },
     "input_type_format": "custom",
-    "payload_type": "books",
+    "payload_type": "Book",
     "payload_type_format": "generated"
   }
