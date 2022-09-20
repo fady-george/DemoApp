@@ -1,6 +1,6 @@
 {
     "on_type": "Query",
-    "field_name": "<Resolver Field Name>",
+    "field_name": "getFirstBookByUserID",
     "function_name": "getFirstBookByUserID",
     "input_type": {
       "type": "object",
