@@ -1,0 +1,17 @@
+{
+    "on_type": "Query",
+    "field_name": "<Resolver Field Name>",
+    "function_name": "getFirstBookByUserID",
+    "input_type": {
+      "type": "object",
+      "title": "input",
+      "properties" : {
+        "id": {
+          "bsonType": "string"
+        }
+      }
+     },
+    "input_type_format": "custom",
+    "payload_type": "books",
+    "payload_type_format": "generated"
+  }
