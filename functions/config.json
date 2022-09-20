@@ -3,5 +3,10 @@
         "name": "getBooksByUserID",
         "private": false,
         "can_evaluate": {}
+    },
+    {
+        "name": "getFirstBookByUserID",
+        "private": false,
+        "can_evaluate": {}
     }
 ]
