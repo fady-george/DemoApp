@@ -1,0 +1,17 @@
+{
+    "field_name": "getFirstBookByUserID",
+    "function_name": "getFirstBookByUserID",
+    "input_type": {
+        "properties": {
+            "id": {
+                "bsonType": "string"
+            }
+        },
+        "title": "input",
+        "type": "object"
+    },
+    "input_type_format": "custom",
+    "on_type": "Query",
+    "payload_type": "Book",
+    "payload_type_format": "generated"
+}
